@@ -38,7 +38,7 @@ const DocumentInfo = () => {
   const handleSaveInput = (data) => {
     if (!/^[0-9]+$/.test(data.age) || !/[A-Za-z]{3}/.test(data.name)) {
       alert(
-        "In name input must be english letters  and age input must be numbers > 0"
+        "In name input must be english letters >3  and age input must be numbers > 0"
       );
       reset();
     } else {
