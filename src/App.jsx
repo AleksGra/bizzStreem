@@ -1,10 +1,11 @@
+import DocumentInfo from "./components/DocumentInfo";
 
-function App() {
+const App = () => {
   return (
-    <div >
-      LIST
+    <div>
+      <DocumentInfo />
     </div>
   );
-}
+};
 
 export default App;
