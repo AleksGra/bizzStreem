@@ -41,6 +41,8 @@ const DocumentInfo = () => {
         "In name input must be english letters  and age input must be numbers > 0"
       );
       reset();
+    } else {
+      dispatch(actions.saveDocumentData(dataDefinition));
     }
   };
 
