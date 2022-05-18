@@ -42,7 +42,7 @@ const DocumentInfo = () => {
       );
       reset();
     } else {
-      dispatch(actions.saveDocumentData(dataDefinition));
+      dispatch(actions.saveDocumentData(data));
     }
   };
 

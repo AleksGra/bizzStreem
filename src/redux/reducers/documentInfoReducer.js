@@ -15,7 +15,10 @@ const documentInfoReducer = (state = initialState, action) => {
     case "mt/documentInfo/SAVE_DOCUMENT_DATA":
       return {
         ...state,
-        documentDefinition: action.payload,
+        dataFromInput: {
+          clientName: action.payload.name,
+          clientAge: action.payload.age,
+        },
       };
 
     default:
